@@ -13,10 +13,10 @@ let game = {
     cards: null,
 
     techs: ['apple','burgerking',],
-    // 'coca','kfc',
-    // 'mcdonald','pepsi','bbc','land',
-    // 'nike','champios','warner','vinga',
-    //             'superman'],
+     'coca','kfc',
+     'mcdonald','pepsi','bbc','land',
+     'nike','champios','warner','vinga',
+                 'superman'],
 
 
 
