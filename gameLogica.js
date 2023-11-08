@@ -3,21 +3,30 @@
 let game = {
 
         
-    // playertime:0,
-    // jogadas:0,
-    // player1:0,
-    // player2:0,
+
     lockMode: false,
     firstCard: null,
     secondCard: null,
     cards: null,
 
-    techs: ['apple','burgerking',],
-     'coca','kfc',
-     'mcdonald','pepsi','bbc','land',
-     'nike','champios','warner','vinga',
-                 'superman'],
 
+
+    techs: [
+        'image (1)',
+        'image (2)',
+        'image (3)',
+        'image (4)',
+        'image (5)',
+        'image (6)',
+        'image (7)',
+        'image (8)',
+        'image (9)',
+        'image (10)',
+        'image (11)',
+        'image (12)',
+        'image (13)',
+        'image (14)',
+    ],
 
 
 
@@ -45,16 +54,9 @@ let game = {
     checkMatch: function(){
         if(!this.firstCard||!this.secondCard){
             return false
-
-            
         }
         return this.firstCard.icon === this.secondCard.icon;
-        
-    
-        
-           
-           
-     
+
     },
 
     clearCards: function(){
